@@ -1,0 +1,267 @@
+body {  
+  background-image: url(images/2.jpg);
+  /* Фоновое изображение не повторяется */
+  background-repeat: no-repeat;
+  /* Фоновое изображение зафиксировано в окне просмотра, поэтому оно не смещается, когда высота контента больше высоты изображения */
+  background-size: cover;
+  /* Устанавливает фоновый цвет,будет отображаться, пока загружается фоновое изображение */
+  background-color: pink;   
+    background-attachment: fixed;                                                 } 
+html {}
+
+.container {
+  max-width: 1100px;
+  text-align:justify;                                                     }                   
+
+#verh { 
+  background: black;
+  width: 100%;
+  max-width: 1100px;
+  height: 100%;
+  padding: 1%;   margin: 0 auto;                                    }
+
+.logoos                                                         {
+  color: white;
+  font-size: 2vw; 
+  margin: 0 auto;                                            } 
+
+.model { 
+  float: left; /* Обтекание справа */ 
+  width: 30vw; /* Ширина текстового блока */ 
+text-shadow: 2px 4px 2px blue;}
+
+.navshapka                                   {
+  font-size: 1.9vw;
+  color: blue;
+  border: solid red 0.15em;
+  margin: 0 auto;  
+  text-align: center;
+  border-radius: 5px 5px 5px 5px;              }
+
+#tabl {
+  background-image: url(images/fon2.jpg);
+  background-attachment: fixed; /* Фоновое изображение зафиксировано в окне просмотра, поэтому оно не смещается, когда высота контента больше высоты изображения */
+  background-image: 100%;
+  background-image: no-repeat;
+  border: solid red 0.3em;
+  width: 45%;
+  padding-left: 5vw;
+  border-radius: 50px 0px 50px 0px;
+  margin: 100px 4px;                               }
+
+.zaglavie { 
+  color: white;
+  padding-left: 4%;
+  font-size: 2.3vw;                                             }
+
+.text {  color: white;
+  padding-left: 4%;
+  font-size: 1.8vw;                                 }
+
+#saytbarustr {
+  text-decoration: none;
+  margin:0 auto;
+  flex-direction: column;
+  overflow: hidden; 
+  column-count: 4; 
+  column-gap: 20px;
+  text-align:justify;                                           } 
+
+.textkolonu                                   {
+  font-size: 1.5vw;
+  font-family: Tahoma;
+  border: solid blue 0.2em;
+  margin: 0 auto;
+  padding: 2px;
+  background: white;
+  padding: 10px;                                         }
+
+.navvvw{text-align: center;}
+
+.navvv {  
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.8vw;
+  color: red;
+  border: solid green 0.15em;
+  border-radius: 5px 5px 5px 5px;              }
+
+#niz {  border: 1px;
+  background-image: url(images/fon3.jpg) ;  
+  height: 45em; padding: 1em; 
+    /* Фоновое изображение всегда отцентрировано по вертикали и горизонтали */
+  background-position: center;
+  /* Фоновое изображение не повторяется */
+  background-repeat: no-repeat;
+  /* Фоновое изображение зафиксировано в окне просмотра, поэтому оно не смещается, когда высота контента больше высоты изображения */
+  background-attachment: fixed;
+  /* Вот что позволяет фоновому изображению подстраиваться под размер контейнера */
+  background-size: cover;                 }
+
+.krugtable  {
+padding: 4em 4em;
+border-radius: 100%;
+width: 5em;
+height: 5em;
+border: solid white 0.2em;
+margin: 4em 1em; 
+background: black;
+opacity: 0.8;
+color:  white;
+font-size: 25px ;
+text-align: center;
+flex: right; text-shadow: 2px 2px 8px pink;                                                  }
+
+.navshapka {
+font-size: 2vw;
+margin: 0 auto;                                         }}
+
+#pol { 
+width: 100%;
+float: left;
+height: 11em;
+background: black;
+color: white; 
+text-align: left;  
+font-size: 15px; 
+border: black 20px; 
+margin: 0 auto;
+border:solid green 0.1em; 
+padding: 2px;                                      }
+
+.textpoltwo {
+margin-bottom:  10px;
+text-align: right;
+padding-right: 10px;
+color: green;
+}
+
+.textpol {
+flex: right; text-shadow: 2px 2px 8px cyan;                                                  }
+  padding-left: 1.5%;                               }
+
+@media screen and (max-width: 1100px)            {
+#saytbarustr   { 
+-webkit-column-count: 4;
+margin:15px 5px 15px 5px;                   }}
+
+@media screen and (max-width: 1100px)            {
+#vershina { 
+background: black;
+width: 100%;
+height: 100%;
+padding: 1%; }}
+
+@media screen and (max-width: 992px)            {
+#saytbarustr {
+  -webkit-column-count: 2;                      }}
+
+@media screen and (max-width: 767px)            {
+#saytbarustr   {
+-webkit-column-count: 1;                       }}
+
+@media screen and (max-width: 767px)    {
+.navshapka {
+font-size: 2.3vw;
+margin: 0 auto;
+height: 2.8em;
+position: relative;                            }}
+
+@media screen and (max-width: 767px)    {
+.model {
+font-size: 3.5vw;  
+position: relative; 
+margin-right: 37px;                            }}
+
+@media screen and (max-width: 767px)    {
+.zaglavie {
+font-size: 4vw;                                }}
+
+@media screen and (max-width: 767px)    {
+.text {
+font-size: 3.5vw;                              }}
+
+@media screen and (max-width: 767px)    {
+.textkolonu {
+font-size: 4vw;                                }}
+
+@media screen and (max-width: 767px)    {
+.navvv{
+height: 33px;
+font-size: 3.8vw; 
+margin-right: 1em;
+text-align: center;
+padding: 0,4em;
+position: relative;                            }} 
+                            
+@media screen and (max-width: 992px)            {
+.krugtable {
+padding: 3em 3em;
+color:  white;
+font-size: 20px;
+text-align: center;
+border-radius: 100%;
+width: 4em;
+height: 4em;
+border: solid red 0.15em;
+margin: 2.5em 0.7em;                           }}
+
+@media screen and (max-width: 767px)            {
+.krugtable {padding: 2em 2em;
+color:  white;
+font-size: 18px;
+text-align: center;
+border-radius: 100%;
+width:  5em;
+height: 5em;
+border: solid red 0.12em;
+margin: 1.5em 0.5em;                              }}
+
+@media screen and (max-width: 767px)            {
+#niz { height: 25em;}}
+
+@media screen and (max-width: 767px)            {
+.textpol { 
+font-size: 13px;
+background: black;
+color: white;}}
+
+.textpol { 
+background: black;
+color: white;}
+
+@media screen and (max-width: 1100px)            {
+.textpol { 
+background: black;
+color: white;}}
+
+@media screen and (max-width: 767px)            {
+.textpoltwo { font-size: 22px;}}
+
+@media screen and (max-width: 767px)            {
+#verh { width: 18em; height: 2em; border: solid yellow 1px;}}
+
+@media screen and (max-width: 767px)            {
+.model { border: solid cyan 0.5px;}}
+
+@media screen and (max-width: 1100px)            {
+#verh { 
+width: 985px; 
+margin: auto;}}
+
+@media screen and (max-width: 992px)            {
+#verh {width: 98%;}}
+
+@media screen and (max-width: 992px)            {
+#tabl { 
+margin: 80px 5px;
+width: 80%;}}
+
+@media screen and (max-width: 767px)            {
+#tabl {
+margin: 50px 5px;
+border: solid cyan 3px;
+width: 80%;}}
+
+</body>
+</html>
